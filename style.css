@@ -19,7 +19,7 @@
     /* Menu de Navegação Principal */
     #principal{
         width:100%;
-        height:80px;
+        height:70px;
         background-color: var(--preto-dnc);    
         display:flex;
         justify-content: space-between;
@@ -68,8 +68,8 @@
         display:flex;
         flex-direction: column;
         align-items: center;
-        margin-top:50px;
-        margin-bottom:50px;
+        margin-top:40px;
+        margin-bottom:40px;
     }
 
         header{
@@ -82,7 +82,6 @@
             font-size:50px;
             font-weight: 600;
             text-align: center;
-
             margin-bottom: 20px;
         }
 
@@ -90,13 +89,12 @@
             text-align: center;
             font-size:30px;
             font-weight: 500;
-            margin-bottom: 80px;
+            margin-bottom: 50px;
         }
 
         header .invert{
             background-color: black;
-            font-weight: 600;
-            padding:5px;
+            padding:3px;
         }
 
         /* Formulario */
@@ -111,13 +109,13 @@
         .form-group{
             display: flex;
             flex-direction: column;
-            margin-top:10px;
+            margin-top:5px;
             margin-bottom:10px;
         }
 
         form input{
             border-radius: 10px;
-            height:30px;
+            height:25px;
             border:0px;
             font-size:20px;
             padding:10px;
@@ -143,7 +141,7 @@
         }
 
         input[type="checkbox"]{
-            transform: scale(1.7);
+            transform: scale(1.5git);
         }
 
         input[type="submit"]{
@@ -180,7 +178,7 @@
             display:flex;
             flex-direction: column;
             align-items: center;
-            height: 300px;
+            height: 200px;
         }
 
         footer h5{
